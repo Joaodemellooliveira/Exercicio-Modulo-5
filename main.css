@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, a, button{
+    font-family: "Gupter", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-image: url(./Image/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #e8e8e8;
+}
+
+header .container,
+.what-is-storytelling,
+.how-we-review,
+.contact-methods{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    margin-right: auto;
+    padding-left: 10px;
+    display: inline;
+    font-size: 46px;
+}
+
+h2{
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+h3{
+    margin: 6px 0;
+    font-size: 20px;
+}
+
+h4{
+    text-align: end;
+    margin: 6px;
+    padding-right: 6px;
+    font-size: 16px;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #947f57;
+    color: #fff;
+    padding: 0 24px;
+    position: fixed;
+    width: inherit;
+}
+
+
+header .container img{
+    height: 120px;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    border-right-style: solid;
+    border-color: #fff;
+    padding-right: 8px;
+}
+
+header nav a,
+.latest-reviews a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav a{
+    font-size: 20px;
+}
+
+#main-image{
+    width: 100%;
+    margin-top: 120px;
+    padding-bottom: 30px;
+    background-color: #947f57;
+}
+
+.what-is-storytelling,
+.how-we-review{
+    margin-top: 10px;
+    margin-bottom: 32px;
+    align-items: flex-start;
+}
+
+.what-is-storytelling img,
+.how-we-review img{
+    min-width: 320px;
+}
+
+.what-is-storytelling article,
+.how-we-review article{
+    margin: 10px;
+}
+
+
+.latest-reviews h2,
+.contact h2{
+    margin-left: 10px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+    margin: 10px
+}
+
+.latest-reviews a{
+    background-color:#947f57;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 6px;
+}
+
+#read-more{
+    text-align: end;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.contact-methods{
+    padding: 0 20px;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.contact-methods h3{
+    margin-bottom: 20px;
+}
+
+form input,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button{
+    background-color: #947f57;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form button:hover{
+    background-color: #b39d73;
+}
+
+.social-links img{
+    height: 20px;
+}
+
+.social-links li{
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+input:focus{
+    outline-color: #947f57;
+}
+
+footer{
+    background-color: #947f57;
+    color: #fff;
+    padding: 16px;
+    margin-top: 20px;
+}
